@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="./images/logos/icon.svg" />
+  	<title>I´m G. Alan - Projetos Web</title>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<script defer type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+	<header>
+		<h2>G. ALAN</h2>
+		<section id="menu">
+			<div class="button_menu" id="mBar_up"></div>
+			<div class="button_menu" id="mBar_midle"></div>
+			<div class="button_menu" id="mBar_down"></div>
+		</section>
+	</header>
+	<main>
+		<section id="menuItems">
+			<button id="home">Home</button>
+			<button id="info">Dev web</button>
+			<button id="projects">Projetos Web</button>		
+			<button id="contacts">Contatos</button>
+			<button id="download">Currículo</button>
+		</section>
+		<section id="stand"></section>
+	</main>
+	<script type="text/javascript">
+		const stand = document.querySelector('#stand')
+		let projectsArray = [
+			{
+				image: "./images/tictactoe.jpeg",
+				nameProject: "Tic tac toe",
+				descriptionProject: "Tradicional jogo da Velha",
+				link: "/"
+			},
+			{
+				image: "./images/snake.jpeg",
+				nameProject: "Snake game",
+				descriptionProject: `Conhecido como "jogo da cobrinha"`,
+				link: "https://snake-js-2022.vercel.app"
+			},
+			{
+				image: "./images/calculadora.jpeg",
+				nameProject: "Calculadora",
+				descriptionProject: "Calculadora com operações simples",
+				link: "/"
+			}
+		]
+		for (var i = 0; i < projectsArray.length; i++) {
+			stand.innerHTML += `
+				<div class="cardProjects">
+					<figure class="imgProjects">
+						<img src="${projectsArray[i].image}" alt="${projectsArray[i].descriptionProject}">
+					</figure>
+					<a href="${projectsArray[i].link}">
+					<div class="descriptionProjects">
+						<h3>${projectsArray[i].nameProject}</h3>
+						<p>${projectsArray[i].descriptionProject}</p>
+					</div>
+					</a>
+				</div>
+			`
+		}
+	</script>
+</body>
+</html>
