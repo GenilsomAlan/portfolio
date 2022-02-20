@@ -10,14 +10,16 @@ document.addEventListener('DOMContentLoaded',(load)=>{
 			navigator.userAgent.match("/WindowsPhone/i")){
 			return true
 		}else{
-			return true
+			return false
 		}
 	}
 	startVersion=()=>{
 		if (checkDevice() == true){
+			//version mobile
 			open("./home.html","_self",false)
 		}else{
-			//desktopVersion()
+			//version desktop
+			open("./homeDesk.html","_self",false)
 		}
 	}
 	startVersion()	
