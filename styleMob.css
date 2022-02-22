@@ -391,9 +391,9 @@ figure img{
         width: 100%;
         border-radius: 0;
     }
-    #infoDiv p, li{
+    #infoDiv p, li, h2{
         font-size: 70px;
-        color: white;
+        color: black;
         margin-left: 30px;
     }
 }
