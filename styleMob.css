@@ -201,9 +201,10 @@ p{
 #infoDiv li{
     font-size: 70px;
     color: black;
-    text-indent: 0px;
+   
     text-decoration: none;
 }
 #infoDiv ul{
     margin-left: 30px;
+    text-indent: 30px;
 }
