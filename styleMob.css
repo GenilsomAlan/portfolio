@@ -179,7 +179,7 @@ p{
     height: 650px;
     border-radius: 0;
     border: 0;
-    margin-top: 0;
+    margin: 60px 0px;
 }
 #infoDiv h1{
     font-size: 85px;
@@ -196,4 +196,7 @@ figure img{
     color: black;
     margin-left: 40px;
     text-indent: 70px;
+}
+#infoDiv li{
+    text-decoration-style: none;
 }
