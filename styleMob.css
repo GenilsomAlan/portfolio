@@ -191,8 +191,9 @@ figure img{
     width: 100%;
     border-radius: 0;
 }
-#infoDiv p{
+#infoDiv p, li, h2{
     font-size: 70px;
     color: black;
-    margin-left: 30px;
+    margin-left: 40px;
+    text-indent: 70px;
 }
