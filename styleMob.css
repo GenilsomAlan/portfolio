@@ -383,7 +383,7 @@ figure img{
     }
     #infoDiv h1{
         font-size: 85px;
-        text-indent: 50px;
+        text-indent: 60px;
         margin: 30px;
         color: #D5D5DD;
     }
@@ -396,4 +396,6 @@ figure img{
         color: black;
         margin-left: 30px;
     }
+    #infoDiv p{
+        text-indent: 60px;
 }
