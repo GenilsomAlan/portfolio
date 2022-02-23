@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',(load)=>{
 			navigator.userAgent.match("/WindowsPhone/i")){
 			return true
 		}else{
-			return true//false
+			return false
 		}
 	}
 	startVersion=()=>{
