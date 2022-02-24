@@ -200,6 +200,9 @@ p{
     margin-left: 40px;
     text-indent: 70px;
 }
+#infoDiv h2{
+    padding-right: 30px;
+}
 #infoDiv li{
     font-size: 70px;
     color: black;
