@@ -15,12 +15,10 @@
 }
 #infoDiv figure{
     width: 600px;
-    height: 400px;
+    height: 450px;
     margin: 20px;
     margin-top: 25px;
     border-radius: 0;
-}
-#infoDiv figure{
     border: 0;
 }
 #infoDiv figure img{
