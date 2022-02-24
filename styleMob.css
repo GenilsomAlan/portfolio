@@ -79,6 +79,7 @@ button:hover{
     width: 95%;
     height: inherit;
     margin: 0 auto;
+    margin-top: 60px;
 }
 #text h1{
     font-size: 100px;
