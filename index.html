@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="./icon.svg" />
+  	<title>I´m G. Alan - Home</title>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="./style.css">
+  	<link rel="stylesheet" type="text/css" href="./styleHome.css">
+  	<script defer type="text/javascript" src="./scriptDesk.js"></script>
+</head>
+<body>
+	<header>
+		<div id="title"> 
+			<h2>G. ALAN</h2>
+		</div>
+		<section id="contactsDiv">
+			<a href="https://instagram.com/alansilva072" target="blank">
+				<div class="contact">				
+					<p>Instagram</p><img src="./instagram.svg">	
+				</div>
+			</a>
+			<a href="https://www.facebook.com/genilson.alan.7" target="blank">
+				<div class="contact">
+					<p>Facebook</p><img src="./facebook.svg">
+				</div>
+			</a>
+			<a href="https://github.com/GenilsomAlan" target="blank">
+				<div class="contact">
+					<p>Github</p><img src="./github.svg">
+				</div>
+			</a>
+			<a href="https://linkedin.com/in/alansilva072" target="blank">
+				<div class="contact">
+					<p>Linkedin</p><img src="./linkedin.svg">
+				</div>
+			</a>
+			<a href="https://drive.google.com/file/d/1KkrlKGelj1kH0DIa14dEOPV1mLnDb7qX/view?usp=sharing" target="blank">
+				<div class="contact">
+					<p>Currículo</p>
+				</div>
+			</a>
+		</section>
+	</header>
+	<main>
+		<section id="perfil">
+			<div id="text">
+				<h1>I'm Genilson Alan</h1>
+				<p>Hello! Eu sou desenvolvedor web. Acredito que uma mente que se abre a uma nova ideia, jamais voltará ao tamanho original!</p>
+			</div>
+			<figure>
+				<img src="./eu.png" alt="Genilson Alan">
+			</figure>
+		</section>
+		<section id="skills">
+			<h2>Conhecimentos</h2>
+			<div class="itemSkills">
+				<h3>JavaScript</h3>
+				<ul>
+					<li>Sintaxe e comandos basicos</li>
+					<li>Manipulação do DOM</li>
+					<li>Fetch API / ajax (XHR)</li>
+					<li>ES6 e modulos js</li>
+				</ul>
+			</div>
+			<div class="itemSkills">
+				<h3>HTML5</h3>
+				<ul>
+					<li>Semântica</li>
+					<li>Validação de formulários</li>
+					<li>Ascessibilidade</li>
+					<li>SEO</li>
+				</ul>
+			</div>
+			<div class="itemSkills">
+				<h3>CSS3</h3>
+				<ul>
+					<li>Responsividade</li>
+					<li>Media query</li>
+					<li>Display</li>
+					<li>Box model</li>
+					<li>Css grid</li>
+				</ul>
+			</div>
+			<div class="itemSkills">
+				<h3>Vue.js</h3>
+				<ul>
+					<li>Data Binding</li>
+					<li>Compontes</li>
+					<li>Reatividade</li>
+					<li>Templates</li>
+					<li>Escalonamento</li>
+				</ul>
+			</div>
+			<div class="itemSkills">
+				<h3>Linguagem C</h3>
+				<ul>
+					<li>Sintaxe</li>
+					<li>Modificadores</li>
+					<li>Funções</li>
+					<li>Ponteiros</li>
+				</ul>
+			</div>
+			<div class="itemSkills">
+				<h3>Git</h3>
+				<ul>
+					<li>Git é um sistema de controle de versões distribuído.</li>
+				</ul>
+			</div>
+		</section>
+		<section id="projectsWeb">
+			<div class="works" id="stand">
+				<h2>Projetos Pessoais</h2>
+			</div>
+			<div class="works">
+				<h2>Trabalhos</h2>
+			</div>
+		</section>
+	</main>
+	<footer id="footer">
+		<section id="contactsDiv2">
+			<a href="https://instagram.com/alansilva072" target="blank">
+				<div class="contact2">				
+					<p>Instagram</p><img src="./instagram.svg">	
+				</div>
+			</a>
+			<a href="https://www.facebook.com/genilson.alan.7" target="blank">
+				<div class="contact2">
+					<p>Facebook</p><img src="./facebook.svg">
+				</div>
+			</a>
+			<a href="https://github.com/GenilsomAlan" target="blank">
+				<div class="contact2">
+					<p>Github</p><img src="./github.svg">
+				</div>
+			</a>
+			<a href="https://linkedin.com/in/alansilva072" target="blank">
+				<div class="contact2">
+					<p>Linkedin</p><img src="./linkedin.svg">
+				</div>
+			</a>
+			<a href="https://drive.google.com/file/d/1KkrlKGelj1kH0DIa14dEOPV1mLnDb7qX/view?usp=sharing" target="blank">
+				<div class="contact2">
+					<p>Currículo</p>
+				</div>
+			</a>
+		</section>
+		<p>By Genilson Alan - Hospedado na Vercel</p>
+	</footer>
+	<script type="text/javascript">
+		const stand = document.querySelector('#stand')
+		let projectsArray = [
+			{
+				nameProject: "Tic tac toe",
+				link: "https://tictactoe-2021.vercel.app",
+				linkGit: "https://github.com/GenilsomAlan/Jogo-da-Velha"
+			},
+			{
+				nameProject: "Snake game",
+				link: "https://snake-js-2022.vercel.app",
+				linkGit: "https://github.com/GenilsomAlan/snake"
+			},
+			{
+				nameProject: "Calculadora",
+				link: "https://calculadora-2021.vercel.app",
+				linkGit: "https://github.com/GenilsomAlan/calculadora"
+			}
+		]
+		for (var i = 0; i < projectsArray.length; i++) {
+			stand.innerHTML += `
+				<div class="cardProjects">
+					<h3>${projectsArray[i].nameProject}</h3>
+					<a href="${projectsArray[i].link}" target="blank">
+						<p>Ver projeto</p>
+					</a>
+					<a href="${projectsArray[i].linkGit}" target="blank">
+						<p>Código</p>
+					</a>
+				</div>
+			`
+		}
+	</script>
+</body>
+</html>
