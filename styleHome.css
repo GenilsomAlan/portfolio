@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Roboto:wght@300&display=swap');
 #perfil{
-	width: 100%;
+	min-width: 100%;
 	height: 550px;
 	margin-top: 60px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	column-gap: 150px;
 }
 #text{
+	min-width: 400px;
+	min-height: 300px;
 	width: 400px;
-	height: 300px;
+	padding-bottom: 20px;
 	border-bottom: 2px solid #B8144E;
+	margin: 0 50px;
 }
 #text h1{
     font-size: 50px;
@@ -62,6 +64,7 @@
     margin-top: 20px;
     /*background-image: linear-gradient(45deg, black, #8900FA);*/
     background-color: #1F003A;
+    border-radius: 15px;
 }
 .itemSkills:hover{
 	height: 248px;
@@ -160,7 +163,7 @@
 	display: none;
 }
 /*///////////////////////////////////////////////////////////////*/
-@media screen and (max-width: 980px){
+@media only screen and (max-width: 980px){
 	header{
 	    width: 100%;
 	    height: 120px;
@@ -227,6 +230,7 @@
 	    margin-top: 20px;
 	    background-color: #1F003A;
 	    padding-bottom: 50px;
+	    border-radius: 25px;
 	}
 	.itemSkills:hover{
 		height: 440px;
