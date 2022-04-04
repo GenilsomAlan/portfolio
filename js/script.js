@@ -1,0 +1,1 @@
+VanillaTilt.init(document.querySelector('.itemSkills'),{max: 25,speed: 400});VanillaTilt.init(document.querySelectorAll('.itemSkills'));

@@ -1,0 +1,157 @@
+section.container{
+    width: 100%;
+    height: 570px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+div.text{
+    min-height: 350px;
+    min-height: 400px;
+    width: 500px;
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    box-sizing: content-box;
+}
+h1{
+    font-size: 65px;
+    color: #F51D4B;
+    text-align: center;
+}
+div.text > p{
+    font-size: 40px;
+    text-align: center;
+}
+section.container2,section.container3{
+    width: 100%;
+    min-height: 530px;
+    height: inherit;
+    padding: 30px 0;
+    box-sizing: content-box;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+}
+section.container2 > h2{
+    width: 100%;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+}
+div.itemSkills{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(255,255,255,0.015);
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+.itemSkills > h3{
+    font-size: 40px;
+    color: white;
+}
+section.container3{
+    background-color: #FFF;
+}
+.stand{
+    width: 100%;
+    min-height: 530px;
+    height: inherit;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: content-box;
+    column-gap: 50px;
+}
+.stand > h2,.cardProjects > h3{
+    text-align: center;
+    width: 100%;
+}
+.cardProjects{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    column-gap: 30px;
+    margin: 25px 0;
+}
+.cardProjects > a{
+    text-decoration-line: underline;
+}
+.contactsDiv2{
+    display: none;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 780px){
+    .stand > h2, .container2 > h2{
+        margin: 20px 0;
+    }
+    #contactsDiv{
+        display: none;
+    }
+    .contactsDiv2{
+        display: block;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .contact2{
+        width: 110px;
+        height: 30px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        column-gap: 3px;
+        cursor: pointer;
+    }
+    .contact2 img{
+        width: 20px;
+        height: 20px;
+    }
+    .contact2 p{
+        text-indent: 0;
+        color: #000;
+        font-size: 18px;
+    }
+    div.itemSkills{
+        width: 349px;
+        margin: 5px 0;
+    }
+     div.itemSkills{
+        width: 349px;
+        margin: 5px 0;
+    }
+    div.cardProjects{
+        width: 349px;
+        margin: 5px 0;
+    }
+}
