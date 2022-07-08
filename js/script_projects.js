@@ -6,7 +6,8 @@ let projectsArray = [
 	{nameProject: "Jogo da velha em C", link: "/", linkGit: "https://github.com/GenilsomAlan/Jogo-da-velha-em-C"},
 	{nameProject: "Game simples", link: "https://poc-nine.vercel.app", linkGit: "https://github.com/GenilsomAlan/poc"},
 	{nameProject: "Bateria musical", link: "https://genilsomalan.github.io/drumKit/", linkGit: "https://github.com/GenilsomAlan/drumKit"},
-	{nameProject: "Teclado virtual", link: "https://teclado-virtual.vercel.app", linkGit: "https://github.com/GenilsomAlan/teclado_virtual"}
+	{nameProject: "Teclado virtual", link: "https://teclado-virtual.vercel.app", linkGit: "https://github.com/GenilsomAlan/teclado_virtual"},
+	{nameProject: "hud", link: "https://hud-chi.vercel.app/", linkGit: "https://github.com/GenilsomAlan/hud"}
 ]
 for (var i = 0; i < projectsArray.length; i++) {
 	stand.innerHTML += `
